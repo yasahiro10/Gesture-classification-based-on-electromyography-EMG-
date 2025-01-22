@@ -83,24 +83,6 @@ git clone https://github.com/username/emg-gesture-classification.git
 
 # Install dependencies
 cd emg-gesture-classification
-pip install -r requirements.txt
-```
-
-### Quick Start
-```python
-from emg_gesture import DataPreprocessor, FeatureExtractor, GestureClassifier
-
-# Load and preprocess data
-preprocessor = DataPreprocessor()
-X_clean = preprocessor.process(raw_emg_data)
-
-# Extract features
-extractor = FeatureExtractor()
-features = extractor.extract_features(X_clean)
-
-# Train classifier
-classifier = GestureClassifier(model_type='xgboost')
-classifier.train(features, labels)
 ```
 
 ## 📈 Results
@@ -110,23 +92,6 @@ Our best performing model (XGBoost) achieved:
 - Real-time prediction capability (<100ms)
 - Robust performance across different users
 
-## 📁 Project Structure
-```
-emg-gesture-classification/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── src/
-│   ├── preprocessing/
-│   ├── feature_extraction/
-│   └── models/
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_feature_analysis.ipynb
-│   └── 03_model_evaluation.ipynb
-├── requirements.txt
-└── README.md
-```
 
 ## 🤝 Contributing
 
@@ -148,10 +113,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-* **Your Name** - *Initial work* - [YourGithub](https://github.com/yourusername)
+* **Yassine OUARDANI** - *Initial work* - [YourGithub](https://github.com/yasahiro10)
 
 ## 🙏 Acknowledgments
-
-* [Institution/Lab Name] for providing the EMG dataset
-* [Name] for technical guidance and support
 * The open-source community for various tools and libraries used in this project
