@@ -9,8 +9,6 @@
 
 This project implements a robust gesture classification system using Electromyography (EMG) signals. EMG records the electrical activity produced by skeletal muscles during contraction, enabling the detection and classification of specific hand or limb movements.
 
-![EMG Signal Example](https://raw.githubusercontent.com/username/repository/main/images/emg_signal.png)
-
 ## ✨ Key Features
 
 ### 📊 Data Collection & Preprocessing
