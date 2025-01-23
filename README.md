@@ -18,33 +18,6 @@ This project implements a robust gesture classification system using Electromyog
   - Raw signal collection protocols
   - Real-time data streaming capabilities
 
-- **Signal Preprocessing**
-  - Bandpass filtering (20-450 Hz)
-  - Notch filtering for power line interference
-  - Baseline wander removal
-  - Motion artifact reduction
-  - Signal normalization
-
-### 🔍 Feature Extraction
-
-- **Time Domain Features**
-  - Root Mean Square (RMS)
-  - Mean Absolute Value (MAV)
-  - Zero Crossing Rate
-  - Waveform Length
-  - Slope Sign Changes
-
-- **Frequency Domain Features**
-  - Power Spectral Density
-  - Mean/Median Frequency
-  - Frequency Ratio
-  - Spectral Moments
-
-- **Time-Frequency Features**
-  - Wavelet Transforms
-  - Short-Time Fourier Transform
-  - Spectrograms
-
 ### 🧠 Classification Models
 
 - **Traditional Machine Learning**
